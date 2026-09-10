@@ -1,0 +1,4 @@
+base=float(input("please enter the base of parallelogram:"))
+hight=float(input("please enter the hight of parallelogram:"))
+Area=base * hight
+print("area is:", Area)
