@@ -1,0 +1,52 @@
+# Lesson 02: Variables & Data Types
+# Python for Teens
+# Teacher: Marjan Gholizadeh
+
+
+# -------------------------
+# 1. Variables
+# -------------------------
+
+name = "Sara"
+age = 13
+score = 18.5
+
+print("Name:", name)
+print("Age:", age)
+print("Score:", score)
+
+
+# -------------------------
+# 2. Data Types
+# -------------------------
+
+name = "Sara"       # String
+age = 13            # Integer
+height = 1.65       # Float
+is_student = True   # Boolean
+
+print(type(name))
+print(type(age))
+print(type(height))
+print(type(is_student))
+
+
+# -------------------------
+# 3. Student Card
+# -------------------------
+
+student_name = "Sara"
+student_age = 13
+math_score = 19
+favorite_color = "Blue"
+is_student = True
+
+print("--------------------")
+print("    STUDENT CARD")
+print("--------------------")
+print("Name:", student_name)
+print("Age:", student_age)
+print("Math Score:", math_score)
+print("Favorite Color:", favorite_color)
+print("Is Student:", is_student)
+print("--------------------")
