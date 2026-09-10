@@ -1,0 +1,84 @@
+# Lesson 03: Input & Output
+# Python for Teens
+# Teacher: Marjan Gholizadeh
+
+
+# -------------------------
+# 1. Getting information
+# -------------------------
+
+name = input("What is your name? ")
+
+print("Hello", name)
+print("Welcome to Python!")
+
+
+# -------------------------
+# 2. Asking several questions
+# -------------------------
+
+name = input("What is your name? ")
+city = input("Where do you live? ")
+favorite_color = input("What is your favorite color? ")
+
+print("--------------------")
+print("YOUR PROFILE")
+print("--------------------")
+print("Name:", name)
+print("City:", city)
+print("Favorite color:", favorite_color)
+print("--------------------")
+
+
+# -------------------------
+# 3. Input is usually text
+# -------------------------
+
+age = input("How old are you? ")
+
+print("Your age is:", age)
+print("The type of age is:", type(age))
+
+
+# -------------------------
+# 4. Converting text to integer
+# -------------------------
+
+age = int(input("How old are you? "))
+
+print("Next year you will be", age + 1)
+
+
+# -------------------------
+# 5. Getting a decimal number
+# -------------------------
+
+height = float(input("What is your height in meters? "))
+
+print("Your height is:", height)
+print("Data type:", type(height))
+
+
+# -------------------------
+# 6. Mini Project
+# Student Introduction
+# -------------------------
+
+print("----------------------------")
+print("   STUDENT INTRODUCTION")
+print("----------------------------")
+
+name = input("Your name: ")
+age = int(input("Your age: "))
+city = input("Your city: ")
+score = float(input("Your math score: "))
+
+print()
+print("Hello", name)
+print("You are", age, "years old.")
+print("You live in", city)
+print("Your math score is", score)
+
+print("----------------------------")
+print("       WELL DONE! 🎉")
+print("----------------------------")
