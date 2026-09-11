@@ -1,0 +1,36 @@
+# Lesson 10: Tuple and Set
+# Author: Marjan Gholizadeh
+
+# Tuple
+fruits = ("apple", "banana", "orange")
+
+print(fruits)
+print(fruits[0])
+print(fruits[1])
+print(len(fruits))
+
+for fruit in fruits:
+    print(fruit)
+
+
+# Set
+numbers = {1, 2, 3, 4, 5}
+
+print(numbers)
+
+numbers.add(6)
+print(numbers)
+
+numbers.remove(3)
+print(numbers)
+
+
+# Duplicate values
+values = {1, 2, 2, 3, 3, 4}
+
+print(values)
+
+
+# Loop through Set
+for number in numbers:
+    print(number)
