@@ -1,0 +1,48 @@
+# Lesson 06: Conditions in Python
+# Author: Marjan Gholizadeh
+
+# Example 1: if
+age = 18
+
+if age >= 18:
+    print("You are an adult.")
+
+
+# Example 2: if and else
+age = 15
+
+if age >= 18:
+    print("You are an adult.")
+else:
+    print("You are under 18.")
+
+
+# Example 3: if, elif and else
+score = 17
+
+if score >= 18:
+    print("Excellent")
+elif score >= 12:
+    print("Good")
+else:
+    print("Needs improvement")
+
+
+# Example 4: Positive, Negative or Zero
+number = -5
+
+if number > 0:
+    print("Positive")
+elif number < 0:
+    print("Negative")
+else:
+    print("Zero")
+
+
+# Example 5: Even or Odd
+number = 10
+
+if number % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
